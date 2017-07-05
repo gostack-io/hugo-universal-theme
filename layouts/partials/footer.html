@@ -1,5 +1,8 @@
+<div class="container">&nbsp;</div>
+<div class="container">&nbsp;</div>
+
 <footer id="footer">
-    <div class="container">
+  <div class="container">
 
         {{ if isset .Site.Params "about_us" }}
         <div class="col-md-4 col-sm-6">
@@ -75,7 +78,7 @@ _________________________________________________________ -->
             {{ if isset .Site.Params "copyright" }}
             <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
-            <p class="pull-right">
+            <p class="pull-right invisible">
               {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
               <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
 
